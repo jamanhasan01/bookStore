@@ -34,7 +34,7 @@ const Navbar = () => {
       <a class="btn btn-ghost text-xl">daisyUI</a>
     </div>
     <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal px-3 flex gap-3 font-semibold">
         {navItem}
       </ul>
     </div>

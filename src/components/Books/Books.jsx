@@ -11,10 +11,10 @@ const Books = () => {
         
     },[])
   return (
-    <div>
-        <h1 className="text-2xl">Books {books.length}</h1>
+    <div className="py-20">
+        <h1 className="text-6xl text-center mb-5">Books {books.length}</h1>
         {/* made sigle card dianamically */}
-        <div>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             {
                 books.map(book=>( 
                 <Book key={book.bookId}  book={book}/>
